@@ -6,10 +6,12 @@
 /* Navbar section style start */
 
 .header_section{
+    background-color: #FFF8F3;
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left,bottom right;
     margin-top: 20px;
+    margin-bottom: 106px;
     background-size: auto,700px;
 }
 .logo {
@@ -22,7 +24,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px 12%;
+    padding: 10px 9.5%;
     align-items: center;
 }
 nav ul{
@@ -59,10 +61,152 @@ nav ul li a{
     align-items: center;
 }
 .banner_content{
-    margin-top: 70px;
+    margin-top: 250px;
     width: 585px;
     height: 356px;
 }
 .hardy{
     width: 584px;
+}
+.banner_content p{
+    margin-bottom: 10px;
+}
+/* banner style end */
+
+/* about me section start */
+.about_me_background {
+    background-color: #FFF8F3;
+    width: 900px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_me {
+    background-color:#ffffff;
+    width: 700px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+.about_me h2 {
+    text-align: center;
+}
+.about_me p{
+    padding: 0 10px;
+   margin: 25px 0;
+   color: #757575;
+   text-align: center;
+}
+.about_me_footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.about_me_footer1{
+    text-align: center;
+}
+.about_me_footer1 h4{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+.about_me_footer1 h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+/* what i do section start */
+.what_i_do{
+    padding: 2% 30%;
+    text-align: center;
+    
+}
+.what_i_do p{
+    color: #757575;
+}
+.what_i_do h2{
+    padding: 20px 0;
+}
+/* what i do end */
+
+/* skill section start */
+.skill{
+    display: flex;
+    gap: 20px;
+    margin: 0 22%;
+}
+
+.javascript{
+    padding: 20px ;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px 0  rgba(0, 0, 0, 0.2) ;
+    height: 300px;
+    width: 200px;
+    
+}
+.javascript h4{
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+.summary h2{
+    text-align: center;
+    margin: 100px 0;
+}
+/* resume section */
+.resume{
+    display: flex;
+    gap: 50px;
+    margin: 0 22%;
+}
+.education h3{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.education h4{
+    font-size: 15px;
+    margin: 5px 0;
+}
+.education h5{
+    font-size: 13px;
+    color: #757575;
+}
+.education p{
+    color: #757575;
+    font-size: 12px;
+    margin: 10px 0;
+
+}
+.education hr{
+    margin: 20px 0;
+}
+/* dowload cv button */
+.download_btn{
+    margin: 50px;
+    text-align: center;
+}
+.contact{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 10% 22%;
+    gap: 100px;
+    
+}
+.lets_contact p{
+    margin: 10px 0;
+    font-size: 13px;
+}
+.message input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+.contact_icon img{
+    margin: 10px 0;
+    padding-right: 10px ;
+    width: 18px;
+   
 }
